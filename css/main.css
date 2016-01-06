@@ -1,0 +1,62 @@
+.mainHeader {
+    /*display: block;*/
+    height: 40rem;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #801638;
+    background: linear-gradient(120deg, #c12155, #801638);
+    padding-top: 2rem;
+    text-align: center;
+    /*position: relative;*/
+}
+
+.mainText1 {
+    font-size: 6rem;
+    color: white;
+    padding-top: 7%;
+}
+
+.mainText2 {
+    font-size: 2rem;
+    color: #e87a9e;
+    padding-bottom: 2rem;
+}
+
+/*.resume {*/
+    /*background-color: #c12155;*/
+    /*opacity: .5;*/
+/*}*/
+
+
+
+
+
+html, body {
+    height: 100%;
+}
+
+
+.page-wrap {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -250px;
+    overflow: auto;
+}
+.page-wrap:after {
+    content: "";
+    display: block;
+}
+
+
+.site-footer, .page-wrap:after {
+    height: 250px;
+}
+
+.site-footer {
+    background: #4ca8a1;
+    height: 250px;
+}
+
+.footer-middle {
+    text-align: center;
+}
