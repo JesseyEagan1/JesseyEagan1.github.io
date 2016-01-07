@@ -59,17 +59,24 @@ a {
   background-color: #801638;
   background-image: linear-gradient(120deg, #E35542, #BD2B2B, #9E1B30, #780E3D, #520435); }
 
+.page-header img {
+    width: 125px;
+    height: 125px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
 @media screen and (min-width: 64em) {
   .page-header {
-    padding: 5rem 6rem; } }
+    padding: 5rem 6rem 2rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
-    padding: 3rem 4rem; } }
+    padding: 3rem 4rem 2rem; } }
 
 @media screen and (max-width: 42em) {
   .page-header {
-    padding: 2rem 1rem; } }
+    padding: 2rem 1rem 1rem; } }
 
 .project-name {
   margin-top: 0;
